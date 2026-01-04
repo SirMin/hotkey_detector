@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:hotkey_detector}",
+            "name": "Debug HotkeyDetector",
+            "program": "${workspaceFolder:hotkey_detector}/.build/debug/HotkeyDetector",
+            "preLaunchTask": "swift: Build Debug HotkeyDetector"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:hotkey_detector}",
+            "name": "Release HotkeyDetector",
+            "program": "${workspaceFolder:hotkey_detector}/.build/release/HotkeyDetector",
+            "preLaunchTask": "swift: Build Release HotkeyDetector"
+        }
+    ]
+}
